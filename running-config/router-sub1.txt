@@ -1,0 +1,93 @@
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+!
+resource policy
+!
+!
+!
+ip cef
+!
+!
+!         
+!
+!
+!
+! 
+!
+!
+!
+!
+interface FastEthernet0
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+interface FastEthernet1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+interface BRI0
+ no ip address
+ encapsulation hdlc
+ shutdown
+!
+interface FastEthernet2
+ switchport mode trunk
+!
+interface FastEthernet3
+!
+interface FastEthernet4
+!
+interface FastEthernet5
+ switchport access vlan 20
+!
+interface FastEthernet6
+!
+interface FastEthernet7
+!
+interface FastEthernet8
+!
+interface FastEthernet9
+ switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+!
+!
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+line con 0
+line aux 0
+line vty 0 4
+!
+!
+webvpn context Default_context
+ ssl authenticate verify all
+ !        
+ no inservice
+!
+end
