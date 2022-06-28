@@ -10,6 +10,7 @@
 ├── pkt
 │   └── vlan.pkt  # Packet Tracerで見れます
 └── running-config
-    ├── router1.txt  # ルータ1の設定
-    └── router2.txt  # ルータ2の設定
+    ├── router-main.txt  # ルータ (真ん中)
+    ├── router-sub1.txt  # ルータ (左)
+    └── router-sub2.txt  # ルータ (右)
 ```
