@@ -18,3 +18,7 @@
     ├── router-sub1.txt  # ルータ (左)
     └── router-sub2.txt  # ルータ (右)
 ```
+
+## トポロジ
+
+![topology](./diagrams/vlan.drawio.svg "トポロジ")
