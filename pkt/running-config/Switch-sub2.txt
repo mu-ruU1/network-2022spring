@@ -16,6 +16,7 @@ spanning-tree extend system-id
 !
 interface FastEthernet0/1
  switchport mode trunk
+ no shutdown
 !
 interface FastEthernet0/2
 !
@@ -36,10 +37,12 @@ interface FastEthernet0/9
 interface FastEthernet0/10
  switchport access vlan 10
  switchport mode access
+ no shutdown
 !
 interface FastEthernet0/11
  switchport access vlan 10
  switchport mode access
+ no shutdown
 !
 interface FastEthernet0/12
 !
@@ -60,10 +63,12 @@ interface FastEthernet0/19
 interface FastEthernet0/20
  switchport access vlan 20
  switchport mode access
+ no shutdown
 !
 interface FastEthernet0/21
  switchport access vlan 20
  switchport mode access
+ no shutdown
 !
 interface FastEthernet0/22
 !
