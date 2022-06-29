@@ -8,7 +8,11 @@
 ├── diagrams
 │   └── vlan.drawio.svg  # トポロジ
 ├── pkt
-│   └── vlan.pkt  # Packet Tracerで見れます
+│   ├── running-config
+│   │   ├── Router-main-1941.txt  # pktのconfig
+│   │   ├── Switch-sub1-2960.txt  # pktのconfig
+│   │   └── Switch-sub2-2960.txt  # pktのconfig
+│   └── vlan.pkt  # Packet Tracer
 └── running-config
     ├── router-main.txt  # ルータ (真ん中)
     ├── router-sub1.txt  # ルータ (左)
