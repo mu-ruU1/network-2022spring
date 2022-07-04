@@ -66,10 +66,12 @@ interface FastEthernet2
 interface FastEthernet3
  switchport access vlan 20
  no ip address
+ no shutdown
 !
 interface FastEthernet4
  switchport access vlan 10
  no ip address
+ no shutdown
 !
 interface FastEthernet5
  no ip address
@@ -77,6 +79,7 @@ interface FastEthernet5
 interface FastEthernet6
  switchport mode trunk
  no ip address
+ no shutdown
 !
 interface FastEthernet7
  no ip address

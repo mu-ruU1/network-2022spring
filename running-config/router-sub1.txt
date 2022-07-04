@@ -47,6 +47,7 @@ interface BRI0
 !
 interface FastEthernet2
  switchport mode trunk
+ no shutdown
 !
 interface FastEthernet3
 !
@@ -54,6 +55,7 @@ interface FastEthernet4
 !
 interface FastEthernet5
  switchport access vlan 20
+ no shutdown
 !
 interface FastEthernet6
 !
@@ -63,6 +65,7 @@ interface FastEthernet8
 !
 interface FastEthernet9
  switchport access vlan 10
+ no shutdown
 !
 interface Vlan1
  no ip address
